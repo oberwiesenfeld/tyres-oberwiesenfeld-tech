@@ -5,11 +5,11 @@ import java.math.BigDecimal;
 import static java.lang.Math.PI;
 import static java.math.BigDecimal.valueOf;
 
-class TyreCalculateExtent {
+public class TyreCalculateExtent {
 
-    public static final BigDecimal TWO = valueOf(2.0);
+    private static final BigDecimal TWO = valueOf(2.0);
 
-    BigDecimal calculateExtent(Tyre tyre, TyreUnits tyreUnit) {
+    public BigDecimal calculateExtent(Tyre tyre, TyreUnits tyreUnit) {
         BigDecimal tyreWidth = tyre.getTyreWidth().getValue(tyreUnit);
         BigDecimal tyreHeight = tyreWidth.multiply(tyre.getTyreAspectRatio());
         BigDecimal extent = tyreHeight.multiply(TWO);
