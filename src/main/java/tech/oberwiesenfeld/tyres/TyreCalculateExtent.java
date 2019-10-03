@@ -7,10 +7,12 @@ import static java.math.BigDecimal.valueOf;
 
 class TyreCalculateExtent {
 
+    public static final BigDecimal TWO = valueOf(2.0);
+
     BigDecimal calculateExtent(Tyre tyre, TyreUnits tyreUnit) {
         BigDecimal tyreWidth = tyre.getTyreWidth().getValue(tyreUnit);
         BigDecimal tyreHeight = tyreWidth.multiply(tyre.getTyreAspectRatio());
-        BigDecimal extent = tyreHeight.multiply(valueOf(2.0));
+        BigDecimal extent = tyreHeight.multiply(TWO);
 
         extent = extent.add(tyre.getWheelWidth().getValue(tyreUnit));
         extent = extent.multiply(valueOf(PI));
