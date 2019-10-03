@@ -2,7 +2,7 @@
 # Tyre Calculations
 
 ## What is the extent of a 3.25 - 18 tyre?
-* `1851 mm for an "3.25 - 18" tyre and supposed aspect ratio (width/height) of 0.8`  
+* `1851 mm for an "3.25 - 18" tyre and ??supposed?? aspect ratio (width/height) of 0.8`  
 
 ## Specs
 * [ECE R75 Specification](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A42011X0330%2802%29).
