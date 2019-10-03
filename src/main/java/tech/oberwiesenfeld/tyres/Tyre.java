@@ -9,10 +9,10 @@ public class Tyre {
     private TyreValue wheelWidth;
     private BigDecimal tyreAspectRatio;
 
-    public Tyre(double tyreWidthDouble, double wheelWidthDouble, double aspectRatio, TyreUnits unit) {
-        setTyreAspectRatio(BigDecimal.valueOf(aspectRatio));
-        setTyreWidth(valueOf(tyreWidthDouble), unit);
-        setWheelWidth(valueOf(wheelWidthDouble), unit);
+    public Tyre(double tyreWidthAsDouble, double wheelWidthAsDouble, double aspectRatio, TyreUnits tyreUnit) {
+        setTyreAspectRatio(valueOf(aspectRatio));
+        setTyreWidth(valueOf(tyreWidthAsDouble), tyreUnit);
+        setWheelWidth(valueOf(wheelWidthAsDouble), tyreUnit);
     }
 
     TyreValue getTyreWidth() {
