@@ -24,7 +24,8 @@ class BMW_R27 {
     }
 
     private static Stream<Arguments> createTestTyres() {
-        // Rim, Felge 2,15 B x 18 Tiefbett
+        // Rim 2,15 B x 18 Tiefbettfelge
+        // Tyre 3.25 x 18
         return Stream.of(
                 Arguments.of(3.25, 18, 0.8, 1851.28),
                 Arguments.of(3.25, 18, 1.0, 1955.02)
