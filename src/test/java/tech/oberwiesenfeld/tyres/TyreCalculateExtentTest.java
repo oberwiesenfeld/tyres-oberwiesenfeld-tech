@@ -42,4 +42,5 @@ class TyreCalculateExtentTest {
         BigDecimal extent = underTest.calculateExtent(tyre, MM);
         assertEquals(valueOf(result).setScale(2,2), extent.setScale(2,2));
     }
+
 }
