@@ -1,4 +1,4 @@
-[![Actions Status](https://github.com/oberwiesenfeld/tyres-oberwiesenfeld-tech/workflows/Java%20Continuous%20Integration%20Action/badge.svg)](https://github.com/oberwiesenfeld/tyres-oberwiesenfeld-tech/actions)
+[![Java Continuous Integration Action](https://github.com/oberwiesenfeld/tyres-oberwiesenfeld-tech/actions/workflows/maven.yml/badge.svg)](https://github.com/oberwiesenfeld/tyres-oberwiesenfeld-tech/actions/workflows/maven.yml)
 # Tyre Calculations
 
 ## What is the extent of a 3.25 - 18 tyre?
